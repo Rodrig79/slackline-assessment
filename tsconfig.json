@@ -7,6 +7,12 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "baseUrl": ".",
+    "paths":{
+      "styles/*": ["./styles/*"],
+      "components/*": ["./components/*"],
+
+    },
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
